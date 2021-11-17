@@ -1,0 +1,16 @@
+{
+  "name": "react-extension-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate to build chrome extensions using react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reet Priye",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.4.4"
+  }
+}
