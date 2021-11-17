@@ -1,6 +1,6 @@
 node_modules/
-boilerplate/
-end/
-start/
-sec5-slides.pdf
+dist/
 package-lock.json
+
+start/
+end/
