@@ -1,3 +1,1 @@
-chrome.runtime.sendMessage('From the content script!', res => {
-  console.log(res)
-})
+// TODO: content script

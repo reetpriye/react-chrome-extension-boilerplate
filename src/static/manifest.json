@@ -1,8 +1,8 @@
 {
-    "manifest_version": 3,
     "name": "React Chrome Extension Boilerplate",
     "description": "Boilerplate to build chrome extensions using react",
     "version": "1.0.0",
+    "manifest_version": 3,
     "icons": {
         "16": "icon.png",
         "48": "icon.png",
@@ -13,6 +13,9 @@
         "default_title": "React Chrome Extension",
         "default_icon": "icon.png"
     },
+    "permissions": [
+        "storage"
+    ],
     "options_page": "options.html",
     "background": {
         "service_worker": "background.js"

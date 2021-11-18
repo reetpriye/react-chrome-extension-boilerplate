@@ -1,11 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import * as React from 'react'
+import { render } from 'react-dom'
 
 import './popup.css'
 
-const test = <img src='icon.png' />
+const App: React.FC<{}> = () => {
+  return (
+    <div>
+      <img src='icon.png' alt='icon' />
+    </div>
+  )
+}
 
 const root = document.createElement('div')
 document.body.appendChild(root)
 
-ReactDOM.render(test, root)
+render(<App />, root)
